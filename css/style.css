@@ -11,7 +11,7 @@
 a {
     color: #B31B1B; /* Set the link color */
     text-decoration: none; /* Remove underline by default */
-    font-size: 1.2em; /* Same font size for links as the rest of the text */
+    font-size: 1em; /* Make links the same size as other text */
     font-family: inherit; /* Inherit the font family from the surrounding text */
 }
 
@@ -36,8 +36,7 @@ a:hover {
 .right-image {
     max-width: 100%; /* Make the image responsive */
     height: auto;
-    width: 100%; /* Make the image scale with its container */
-    max-width: 700px; /* Maximum width for larger screens */
+    width: 800px; /* Increased the width of the image */
 }
 
 /* Container for larger font and cleaner appearance */
