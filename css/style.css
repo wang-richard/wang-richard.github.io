@@ -43,7 +43,7 @@ a:hover {
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
     font-size: 1.2em; /* Same font size for all text */
-    line-height: 1.6; /* Adjust line spacing for readability */
+    line-height: 1.8; /* Adjust line spacing for readability */
     background-color: #f9f9f9; /* Light background color */
     color: #333; /* Darker text color for contrast */
 }
