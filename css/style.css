@@ -36,7 +36,7 @@ a:hover {
 .right-image {
     max-width: 100%; /* Make the image responsive */
     height: auto;
-    width: 500px; /* Increased the width of the image */
+    width: 750px; /* Increased the width of the image */
 }
 
 /* Container for larger font and cleaner appearance */
