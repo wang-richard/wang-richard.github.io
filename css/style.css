@@ -7,11 +7,11 @@
     justify-content: space-between; /* Distribute space between text and image */
 }
 
-/* Style links */
+/* Style links to have the same font size as other text */
 a {
     color: #B31B1B; /* Set the link color */
     text-decoration: none; /* Remove underline by default */
-    font-size: 1em;
+    font-size: 1.2em; /* Same font size for links as the rest of the text */
     font-family: inherit; /* Inherit the font family from the surrounding text */
 }
 
@@ -23,7 +23,7 @@ a:hover {
 .linklog-content {
     flex: 1; /* Allow text content to take up available space */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
-    font-size: 1em; /* Larger font size */
+    font-size: 1.2em; /* Same font size for text */
     line-height: 1.6; /* Adjust line spacing for readability */
 }
 
@@ -36,13 +36,14 @@ a:hover {
 .right-image {
     max-width: 100%; /* Make the image responsive */
     height: auto;
-    width: 800px; /* Increased the width of the image */
+    width: 100%; /* Make the image scale with its container */
+    max-width: 700px; /* Maximum width for larger screens */
 }
 
 /* Container for larger font and cleaner appearance */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
-    font-size: 1em; /* Larger font size for body text */
+    font-size: 1.2em; /* Same font size for all text */
     line-height: 1.6; /* Adjust line spacing for readability */
     background-color: #f9f9f9; /* Light background color */
     color: #333; /* Darker text color for contrast */
