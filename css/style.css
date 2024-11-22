@@ -1,0 +1,15 @@
+/* Add spacing around the container */
+.container {
+    margin: 10%; /* Add 10% spacing on all sides */
+    box-sizing: border-box; /* Include padding and border in the container's dimensions */
+}
+
+/* Style links */
+a {
+    color: #B31B1B; /* Set the link color */
+    text-decoration: none; /* Remove underline by default */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
