@@ -11,7 +11,7 @@
 a {
     color: #B31B1B; /* Set the link color */
     text-decoration: none; /* Remove underline by default */
-    font-size: 1em; /* Make links the same size as other text */
+    font-size: inherit; /* Inherit the font size from surrounding text */
     font-family: inherit; /* Inherit the font family from the surrounding text */
 }
 
@@ -22,8 +22,7 @@ a:hover {
 /* Text content styling */
 .linklog-content {
     flex: 1; /* Allow text content to take up available space */
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
-    font-size: 1.2em; /* Same font size for text */
+    font-size: inherit; /* Inherit font size from body */
     line-height: 1.6; /* Adjust line spacing for readability */
 }
 
@@ -36,13 +35,13 @@ a:hover {
 .right-image {
     max-width: 100%; /* Make the image responsive */
     height: auto;
-    width: 800px; /* Increased the width of the image */
+    width: 800px; /* Set a fixed width for the image */
 }
 
 /* Container for larger font and cleaner appearance */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
-    font-size: 1.2em; /* Same font size for all text */
+    font-size: 1.2em; /* Set global font size for all text */
     line-height: 1.8; /* Adjust line spacing for readability */
     background-color: #f9f9f9; /* Light background color */
     color: #333; /* Darker text color for contrast */
@@ -52,5 +51,8 @@ body {
 @media (max-width: 1024px) {
     .image-container {
         display: none; /* Hide the image container on screens smaller than 1024px */
+    }
+    body {
+    font-size: 1.4em; /* Set global font size for all text */
     }
 }
