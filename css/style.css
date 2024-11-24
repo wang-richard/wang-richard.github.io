@@ -41,7 +41,7 @@ a:hover {
 /* Container for larger font and cleaner appearance */
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Professional and clean font */
-    font-size: 1.2em; /* Set global font size for all text */
+    font-size: 1.4em; /* Set global font size for all text */
     line-height: 1.8; /* Adjust line spacing for readability */
     background-color: #f9f9f9; /* Light background color */
     color: #333; /* Darker text color for contrast */
@@ -53,6 +53,6 @@ body {
         display: none; /* Hide the image container on screens smaller than 1024px */
     }
     body {
-    font-size: 1.4em; /* Set global font size for all text */
+    font-size: 1.8em; /* Set global font size for all text */
     }
 }
